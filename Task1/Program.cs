@@ -28,6 +28,7 @@ namespace Task1
             Console.WriteLine("{0} {1}, {2}, {3}, {4}", name, surname, age, height, weight);
             Console.WriteLine($"{name} {surname}, {age}, {height}, {weight}");
             Console.ReadLine();
+
         }
     }
 }
