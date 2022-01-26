@@ -4,6 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+//Халдон. Написать программу «Анкета». Последовательно задаются вопросы (имя, фамилия, возраст, рост, вес). В результате вся информация выводится в одну строчку:
+//а) используя склеивание;
+//б) используя форматированный вывод;
+//в) используя вывод со знаком $.
+
 namespace Task1
 {
     class Program
@@ -22,6 +27,7 @@ namespace Task1
             Console.WriteLine("Какой у вас вес?");
             string weight = Console.ReadLine();
 
+            //чтобы было опрятно
             Console.Clear();
 
             Console.WriteLine("Ваши данные: " + name + " " + surname + ", " + age + ", " + height + ", " + weight);
