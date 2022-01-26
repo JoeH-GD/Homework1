@@ -32,9 +32,15 @@ namespace PrintProgram
             Console.WriteLine(myData);
 
             #region ManualCenter
+
+            //Рассчет координат начала строки
             int lineX = (Console.WindowWidth / 2) - (myData.Length /2);
             int lineY = (Console.WindowHeight / 2) -1;
+
+            //установка позиции курсора
             Console.SetCursorPosition(lineX, lineY);
+
+            //печать строки
             Console.WriteLine(myData);
             Console.ReadLine();
             #endregion ManualCenter
