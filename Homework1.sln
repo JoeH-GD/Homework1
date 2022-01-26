@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExchangeValues", "ExchangeV
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintProgram", "PrintProgram\PrintProgram.csproj", "{BA462FDD-C449-43E0-A35D-CF2BBAFD2EE9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodsKeep", "MethodsKeep\MethodsKeep.csproj", "{A3075052-AB7E-4B3F-A685-461236985A9C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{BA462FDD-C449-43E0-A35D-CF2BBAFD2EE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA462FDD-C449-43E0-A35D-CF2BBAFD2EE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA462FDD-C449-43E0-A35D-CF2BBAFD2EE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3075052-AB7E-4B3F-A685-461236985A9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3075052-AB7E-4B3F-A685-461236985A9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3075052-AB7E-4B3F-A685-461236985A9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3075052-AB7E-4B3F-A685-461236985A9C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
