@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+//Халдон. Напечатать имя и город проживания, напечатать их в центре экрана,
+//напечатать в центре экрана с помощью метода
 namespace PrintProgram
 {
     class Program

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+//Халдон. Сделать класс с методами, которые могут пригодиться в учебе
 namespace MethodsKeep
 {
     class MethodKeep
