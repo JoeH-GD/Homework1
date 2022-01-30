@@ -35,7 +35,24 @@ namespace MethodsKeep
         return n;
         }
 
+        //Метод для перевода чисел в массив
+        static int[] intToArray(string num)
+        {
+         //измеряем длину строки, она будет длиной массива 
+         int[] arrayNumber = new int [num.Length];
 
+         for (int i =0; i<num.Length; i++)
+        {
+
+        //Я видел решения лучше, но они сложнее для понимания, сделал сам через перменную-костыль
+        //В нее записывается поочередно кайдый символ в строке
+            char x = num[i];
+        // символ конвертируется в число и записывается в соответствующую ячейку массива
+             arrayNumber[i] = (Convert.ToInt32(x) - 48);
+         }
+
+         return arrayNumber;
+        }
         static void Main(string[] args)
         {
             
